@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styl.css" type="text/css" />
+    <script src="prodreqItms.js"></script>
+</head>
+
+<body onload="chk()">
+    <h1>Supply Request form</h1>
+    <table id="tb">
+
+        <tr>
+            <th>Id</th>
+            <th>Request No.</th>
+            <th>Requested Item</th>
+            <th>Request status</th>
+            <th>supply office</th>
+
+        </tr>
+
+
+    </table>
+
+    <p id="md"></p>
+
+    <input style="background-color: darkblue; color:bisque" type="button" id="inp" value="Submit" onclick="cal()">
+    <input id="in" type="button" value="Update Supply status(to be filled by supplier)" onclick="sav()">
+<!-- <button onclick="nup()">Post New supply status</button> -->
+    <br />
+    <br />
+<a href="http://127.0.0.1:5500/adminhome.html">Back</a>
+    
+    <div id="m"></div>
+    <br />
+
+</body>
+
+</html>

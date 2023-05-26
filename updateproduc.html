@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="login.js"></script>
+</head>
+<body>
+    
+    <h2>Please Update product Category name</h2>
+    <form>
+        <label>Product Id</label>
+        <input type="number" id="_id"><br/>
+        <label>Product Category Name</label>
+        <input type="text" id="ca"><br/>
+        <!-- <label>Product Image</label>
+        <input type="text" id="imag"><br/> -->
+        
+        
+        <input type="button" value="update product category name" onclick = "upPctnam()">
+        <input type="reset" value="reset"><br/>
+    </form>
+
+    <div id="ms"></div>
+
+    <h2>Please Update product Category Image</h2>
+    <form>
+        <label>Product Id</label>
+        <input type="number" id="id"><br/>
+        <label>Product Category Image Address</label>
+        <input type="text" id="imga"><br/>
+        <!-- <input type ="submit" value="submit"> -->
+        
+        
+        <input type="button" value="update product category Image" onclick = "updImg()">
+        <input type="reset" value="reset"><br/>
+    
+    </form>
+
+    <h2>Delete product</h2>
+    <form>
+        <label>Product Id</label>
+        <input type="number" id="dp"><br/>
+    
+        <input type="button" value="Delete Produt" onclick = "delp()">
+        <input type="reset" value="reset"><br/>
+    
+    </form>
+
+    <div id="mymsg"></div>
+
+</body>
+</html>

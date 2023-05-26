@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="order.js"></script>
+</head>
+
+<body onload="show()">
+    <h2>Genrate Bill</h2>
+    <form>
+        <label>Enter order number</label>
+        <input type="number" id="n"><br />
+
+        <label>Total Price</label>
+        <input type="number" id="iu"><br /><br />
+
+
+
+        <input type="button" id="ip" onclick="op()" value="cal Price"><br /><br />
+
+
+        <input type="button" value="Enter Another order item number" onclick="res()"><br /><br>
+        <label>Store</label>
+        <input type="number" id="st">
+        <!-- <input type="button" value="generate bil" onclick="gbil()"><br /> -->
+
+        <label>Grand Total</label>
+        <input type="number" id="gto"><br />
+        <input value="Generate Bill" type="button" onclick="shbil()">
+
+        <input type="reset" value="reset"><br />
+
+    </form>
+    <div id="s"></div>
+    <div id="bil"></div>
+
+    <div id="sb">Show Bill</div>
+
+
+</body>
+
+</html>

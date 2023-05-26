@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styl.css" type="text/css" />
+    <script src="stock.js"></script>
+</head>
+
+<body onload="show()">
+    <h1>Stock Management Software</h1>
+    <table class="ft">
+        <h2>Stock Report</h2>
+        <tr>
+            <th>Id</th>
+            <th>Date</th>
+            <th style="background-color: aqua;">Product</th>
+            <th style="background-color: chartreuse">Inwrd Quantity</th>
+            <th style="background-color: red">outward Quantity</th>
+            <th style="background-color: coral">Net Quantity</th>
+            <th style="background-color: blueviolet;">Min Quantity</th>
+            <th style="background-color: darkorange;">Place Order</th>
+        </tr>
+
+
+    </table>
+    <!-- <input type="button" value="submit" onclick="cal()"> -->
+    <p id="md"></p>
+
+    <p id="mdi"></p>
+    <input style="background-color: darkblue; color:bisque"type="button" id="inp" value="Submit" onclick="cal()">
+
+    <br/>
+    <br/>
+
+    <input type="number" id="no">
+    <button onclick="dle()">Delete Record</button>
+
+    <div id="m"></div>
+    <br/>
+    <a href="http://127.0.0.1:5500/adminhome.html">Back</a>
+</body>
+
+</html>

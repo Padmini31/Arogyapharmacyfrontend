@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: cadetblue;
+}
+
+h1 {
+  text-align: center;
+  background-color: #fff;
+  color: orchid;
+  font-size: 40px;
+  padding: 10px;
+  width: auto;
+  margin: auto;
+  font-family: sans-serif;
+  border: 1px solid fuchsia;
+  margin-top: 0px;
+
+}
+
+
+.rd {
+  height: 40px;
+  width: 37%;
+  padding: 12px;
+}
+
+.btn {
+  padding: 7px;
+
+  border: 1px solid olive;
+
+
+}
+
+#prs {
+  background-color: azure;
+  width: 39%;
+  color: purple;
+  padding: 12px;
+  margin: 0px;
+  font-size: larger;
+}
+
+table {
+  border: 2px solid black;
+  /* background-color:rebeccapurple; */
+  color: black;
+  width: 100%;
+}
+
+#s {
+  background-color: green;
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding-top: 7px;
+  box-sizing: border-box;
+
+
+}
+
+#t {
+  background-color: orangered;
+  border: 1px solid black;
+  padding-top: 10px;
+}
+
+#n {
+  background-color: yellow;
+  border: 1px solid black;
+  padding-top: 10px;
+}
+
+
+#stk {
+  border: 1px solid black;
+  height: 47px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  font-weight: 700;
+  background-color: blue;
+  color: whitesmoke;
+}
+
+#fr {
+  height: 33px;
+  font-size: 20px;
+  text-align: center;
+  border-collapse: collapse;
+  box-sizing: border-box;
+
+}
+
+#c {
+  background-color: aqua;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+#c td {
+  border: 1px solid black;
+}
+
+.tr td {
+  /* height: 16px; */
+  border: 1px solid black;
+}
+
+.tr {
+  height: 19px;
+}
+
+#mt {
+  /* border:6px solid orangered; */
+  border-collapse: collapse;
+}
+
+
+.clo {
+  color: navy;
+}
+
+.cl {
+  color: indigo;
+
+}
+
+#pi td {
+  background-color: chartreuse;
+}
+
+#pi th {
+  background-color: blueviolet;
+}
+
+
+
+#ot th {
+  border: 1px solid black;
+  background-color: brown;
+  color: beige
+}
+
+#ot {
+  border: 1px solid black;
+}
+
+#ot td {
+  border: 1px solid black;
+  background-color: aliceblue;
+
+}
+
+#ht {
+  border: 1px solid black;
+  width: 100%;
+  background-color: blanchedalmond;
+  /* color:wheat */
+  padding: 10px;
+}
+
+#sod {
+  border: 1px solid black;
+  background-color: beige;
+  padding: 6px;
+}
+
+.a:link {
+  color: darkblue;
+  /* font-size: 16px; */
+}
+
+.a:visited {
+  color:blueviolet
+}
+
+#bp {
+  border-collapse: collapse;
+}
+
+#bp td {
+  text-align: center;
+}
+
+#k {
+  border: 1px solid black;
+}
+
+#bp th {
+  text-align: center;
+  background-color: teal;
+  padding: 6px;
+}
+
+#sc th {
+  border: 1px solid black;
+  text-align: center;
+  background-color: chartreuse;
+  padding: 4px;
+}
+
+#sc td {
+  border: 1px solid black;
+  text-align: center;
+  font-weight: 200;
+  font-size: larger;
+}
+
+.mg {
+  height: 200px;
+  ;
+}
+
+#jn {
+  background-color: chartreuse;
+  padding: 10px;
+  margin: 4px;
+  border: 1px solid black;
+}
+
+#at{
+  border:1px solid black;
+  padding:4px;
+  background-color:aqua;
+  color:black;
+  margin:10px;
+}
+#ti th{
+  background-color: chartreuse;
+}
+
+#ki th{
+  background-color: chartreuse;
+}

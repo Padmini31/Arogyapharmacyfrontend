@@ -1,0 +1,36 @@
+
+.mnCls {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* width: 100%; */
+    border:3px solid palevioletred;
+  }
+  
+  .sbdv{
+    width: 39%;
+    border:3px solid black;
+    height:auto;
+    margin: 16px;
+  }
+
+.detl{
+    text-align: center;
+    font-size: large;
+}
+
+  body h2{
+    text-align: center;
+    margin:10px;
+    border: 1px solid rebeccapurple;
+    width:98%;
+    padding: 10px;
+    
+  }
+
+
+  .mgCls{
+    width: 99%;
+    height: 200px;
+    border:1px solid palegoldenrod;
+  }

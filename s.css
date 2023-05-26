@@ -1,0 +1,21 @@
+.mydiv p{
+    color:blue;
+}
+
+#divv p{
+    color:blueviolet;
+}
+
+
+.ft td{
+    color:chocolate;
+}
+
+ 
+.st{
+    color:fuchsia;
+}
+
+:first-child{
+    color:blue;
+}

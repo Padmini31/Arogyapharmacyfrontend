@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="prodDet.js"></script>
+    
+    <link rel="stylesheet" href="sty.css" type="text/css" />
+</head>
+
+<body>
+    <h2 id="sod">Store Order</h2>
+    <form>
+        <label>Order No.</label>
+        <input type="number" id="no"><br />
+
+        <label>Order Date</label>
+        <input type="date" id="d"><br />
+        <label>Customer Id</label>
+        <input type="number" id="cid"><br />
+        <label>Delivery date </label>
+        <input type="date" id="dd"><br />
+        <label>Delivery Time </label>
+        <input type="time" id="t"><br />
+
+
+        <input type="button" value="store order" onclick="storOdr()">
+        <input type="reset" value="reset"><br />
+    </form>
+    <div id="ms"></div>
+</body>
+
+</html>

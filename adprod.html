@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="login.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+    <h2>Please Add product</h2>
+    <form>
+        <label>Product Id</label>
+        <input type="number" id="_id"><br/>
+        <label>Product Name</label>
+        <input type="text" id="name"><br/>
+        <label>Product Category</label>
+        <input type="text" id="cat"><br/>
+        <label>Quantity</label>
+        <input type="number" id="qty"><br/>
+        <label>Price</label>
+        <input type="number" id="prc"><br/>
+        <label>Image</label>
+        <input type="text" id="im"><br/>
+        <label>Description</label>
+        <input type="text" id="i"><br/>
+
+        <!-- <label>Category Id</label>
+        <input type="number" id="cd"><br/> -->
+        
+        <input type="button" value="Add product" onclick="add()">
+        <input type="reset" value="reset"><br/>
+    
+    </form>
+    <div id="msg">
+        
+    </div>
+
+    <input type="button" value="back" onclick="main()">
+</body>
+</html>

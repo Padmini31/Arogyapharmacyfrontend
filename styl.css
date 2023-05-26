@@ -1,0 +1,70 @@
+h1 {
+    border: 1px solid black;
+    background-color: blue;
+    color: white;
+}
+
+.ft {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.ft th {
+    border: 1px solid black;
+}
+
+.ft td {
+    border: 1px solid black;
+}
+
+#tb {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#tb th {
+    border: 1px solid black;
+}
+
+
+#tb td {
+    border: 1px solid black;
+}
+
+#st {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#st th {
+    border: 1px solid black;
+}
+
+
+#st td {
+    border: 1px solid black;
+}
+
+#in{
+    margin:10px;
+    padding: 7px;
+    border:1px solid black;
+}
+
+#tb th{
+background-color: blueviolet;
+font-size:20px;
+padding:7px;
+}
+
+#pid{
+    background-color:pink;
+}
+#at{
+    background-color: chartreuse;
+    padding:10px;
+    margin:10px;
+    color:black;
+    letter-spacing:0cqmax;
+    border:1px solid black;
+}

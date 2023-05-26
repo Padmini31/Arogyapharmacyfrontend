@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="login.js"></script>
+    <!-- <script src="view.js"></script> -->
+    <!-- <link rel="stylesheet" href="style.css" type="text/css" /> -->
+    <link rel="stylesheet" href="sty.css" type="text/css" />
+
+</head>
+
+<body>
+    <h1>Arogya pharmacy</h1>
+    <br />
+    <a class="a" href="http://127.0.0.1:5500/profile.html">Create Profile</a> ||
+    <a class="a" href="http://127.0.0.1:5500/disp.html">View Profile</a> ||
+    
+    <hr>
+
+
+    <h2 class="clo">Welcome to customer Home Page</h2> ||
+
+    <a class="a" href="http://127.0.0.1:5500/bypro.html">Show Products</a> ||
+    <a class="a" href="http://127.0.0.1:5500/showCat.html">Show Product Category</a> ||<br/>
+    <br/>
+    
+
+    <label>Search for your product by Name</label><br /><br />
+    <input type="search" id="med" class="rd" onkeyup="dem()" placeholder="Search in phramacy search for medicines">
+
+    <!-- <h3>Search For your Medcine</h3> -->
+
+    <h2 id="he"></h2>
+    <div id="msg">
+
+
+    </div>
+    <br />
+    <div id="imag"></div>
+    <div id="ad"></div>
+    <hr />
+    <label>Search for your product by Id</label><br /><br />
+    <input type="search" id="fcv" class="rd" onkeyup="byid()" placeholder="Search Product Id">
+
+    <p id="res"></p>
+    <img src="" id="imgId">
+    <p id="det"></p>
+
+
+
+    <h3 id="prs">Upload your prescription</h3>
+    <h3 class="clo">We will create your cart based on your prescription for quick and error free delivery.</h3>
+    <input class="btn" type="file" id="fl">
+    <input type="button" onclick="thn()" class="btn" value="Submit">
+
+    <p id="noti"></p>
+    <hr />
+    <h2 class="cl">Search For your Medicines by Category Names</h2>
+
+
+    <input type="search" class="rd" id="cv" onkeyup="ctgry()" placeholder="Search Category Name">
+    <br />
+    <br />
+
+    <div id="result">
+
+    </div>
+    <br />
+
+    <div id="ftg">
+
+        <div class="ftgcls"><img class="mgCls" src="">
+            <p class="detl"></p>
+        </div>
+
+        <div class="ftgcls"> <img src="" class="mgCls">
+            <p class="detl"></p>
+        </div>
+        <div class="ftgcls"> <img src="" class="mgCls">
+            <p class="detl"></p>
+        </div>
+        <div class="ftgcls"> <img src="" class="mgCls">
+            <p class="detl"></p>
+        </div>
+        <div class="ftgcls"><img class="mgCls" src="">
+            <p class="detl"></p>
+        </div>
+        <div class="ftgcls"><img class="mgCls" src="">
+            <p class="detl"></p>
+        </div>
+    </div>
+    <br />
+    <br />
+    <hr />
+
+
+    <input type="button" value="Log Out" onclick="logOut()">
+
+</body>
+
+</html>
